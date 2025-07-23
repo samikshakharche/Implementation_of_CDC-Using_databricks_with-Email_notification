@@ -1,0 +1,24 @@
+{
+    "name": "HourlyTrigger_CDC",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "ls_samiksha-cdc_project",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Hour",
+                "interval": 1,
+                "startTime": "2025-07-22T05:32:00",
+                "timeZone": "India Standard Time"
+            }
+        }
+    }
+}
